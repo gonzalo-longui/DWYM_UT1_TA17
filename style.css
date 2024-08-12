@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    border: 6px solid rgb(113, 28, 85);
+    background: linear-gradient(to right, rgb(249, 59, 185), rgb(113, 28, 85));
+    border-radius: 15px;
+    display: flex;
+    align-items: center;  
+    flex-direction: column;
+}
+
+img {
+    width: 96px;
+    border-radius: 50%;
+    top: -30px;
+    position: absolute;
+    align-self: flex-start;
+    box-shadow: 0px 0px 10px rgba(0,0,0,1);
+    border: 3px solid rgb(116, 2, 116);
+
+}
+
+h2, p {
+    text-align: center;
+    font-family: 'TW Cen MT', Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 82px;
+    border-radius: 15px;
+    align-items: center;
+    background-color: rgb(176, 22, 176);
+    border: 3px solid rgb(116, 2, 116);
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'TW Cen MT', Verdana, Geneva, Tahoma, sans-serif;
+}
